@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/vkappdeploy/static/media/94.5bcddbb4.png"
   },
   {
-    "revision": "8930becf44673ed04829",
+    "revision": "dd57232cf3d58f36462b",
     "url": "/vkappdeploy/static/css/main.9b01bc8e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/vkappdeploy/static/media/48.png.392e5c7b.bmp"
   },
   {
-    "revision": "c204027450e2b72be922",
-    "url": "/vkappdeploy/static/js/2.c17787fe.chunk.js"
+    "revision": "db7cea5cbe7f7b2fb8b8",
+    "url": "/vkappdeploy/static/js/2.272fe275.chunk.js"
   },
   {
     "revision": "10907c236fc2d6128a3bf6ba5b7a6fd0",
@@ -180,8 +180,8 @@ self.__precacheManifest = [
     "url": "/vkappdeploy/static/media/93.d7225ed9.png"
   },
   {
-    "revision": "8930becf44673ed04829",
-    "url": "/vkappdeploy/static/js/main.b7041937.chunk.js"
+    "revision": "dd57232cf3d58f36462b",
+    "url": "/vkappdeploy/static/js/main.3f5cae07.chunk.js"
   },
   {
     "revision": "cdeca6ed4a9333f7955116a9f51ec742",
@@ -356,11 +356,11 @@ self.__precacheManifest = [
     "url": "/vkappdeploy/static/media/47.png.a21b5a56.bmp"
   },
   {
-    "revision": "c204027450e2b72be922",
+    "revision": "db7cea5cbe7f7b2fb8b8",
     "url": "/vkappdeploy/static/css/2.8feb94ba.chunk.css"
   },
   {
-    "revision": "d1d92b72fac28e2fb1eb0c7e43106866",
+    "revision": "f030324b708c70135f531efa376d64ac",
     "url": "/vkappdeploy/index.html"
   }
 ];
