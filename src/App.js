@@ -1,0 +1,63 @@
+import React from 'react';
+import connect from '@vkontakte/vkui-connect';
+import { View } from '@vkontakte/vkui';
+import '@vkontakte/vkui/dist/vkui.css';
+
+import Home from './panels/Home';
+import Persik from './panels/Persik';
+import Umnoxenie from './panels/Umnoxenie';
+import Trig from './panels/Trig';
+import Progress from './panels/Progress';
+import Proiz from './panels/Proiz';
+import Inter from './panels/Inter';
+import Kvadr from './panels/Kvadr';
+import Step from './panels/Step';
+import Log from './panels/Log';
+
+
+class App extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			activePanel: 'home',
+			fetchedUser: null,
+		};
+	}
+
+	componentDidMount() {
+		connect.subscribe((e) => {
+			switch (e.detail.type) {
+				case 'VKWebAppGetUserInfoResult':
+					this.setState({ fetchedUser: e.detail.data });
+					break;
+				default:
+					console.log(e.detail.type);
+			}
+		});
+		connect.send('VKWebAppGetUserInfo', {});
+	}
+
+	go = (e) => {
+		this.setState({ activePanel: e.currentTarget.dataset.to })
+	};
+
+	render() {
+		return (
+			<View activePanel={this.state.activePanel}>
+				<Home id="home" fetchedUser={this.state.fetchedUser} go={this.go} />
+				<Persik id="persik" go={this.go} />
+				<Umnoxenie id="umnoxenie" go={this.go} />
+				<Trig id="trig" go={this.go} />
+				<Progress id="progress" go={this.go} />
+				<Proiz id="proiz" go={this.go} />
+				<Inter id="inter" go={this.go} />
+				<Kvadr id="kvadr" go={this.go} />
+				<Step id="step" go={this.go} />
+				<Log id="log" go={this.go} />
+			</View>
+		);
+	}
+}
+
+export default App;

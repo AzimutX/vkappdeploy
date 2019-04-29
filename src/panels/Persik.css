@@ -1,0 +1,139 @@
+.Persik {
+  max-width: 600px;
+  width: 100%;
+  height: 100%;
+}
+
+.Persik1 {
+  max-width: 99%;
+  max-height: 100%;
+
+}
+
+.Persik2 {
+
+  height: 40px;
+}
+.Persik3 {
+
+  height: 55px;
+  width: 180px;
+}
+
+.div_img{
+    height: 40px;
+}
+.div_img2{
+    height: 380px;
+}
+.div_img3s{
+    height: 100%;
+}
+.div_img3ss{
+    height: 30px;
+    width: 105%;
+}
+.div_img3sss{
+    height: 50px;
+    width: 105%;
+}
+.div_img_big{
+    height: 95%;
+    width: 95%;
+}
+
+.div_img_big2{
+    height: 130px;
+    width: 320px;
+    margin-right: 100px;
+    max-width: 95%;
+}
+
+.div_img_big3{
+    height: 220px;
+    width: 95%;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.droby{
+        height: 40px;
+}
+.st {position: relative; 
+	 padding: 10px;
+     height: 100%;
+     background: #ffffff;
+     width: 90%;
+
+     border: 3px solid #000000;
+     border-radius: 15px;
+     margin-top: 10px;
+     font-family: "Times New Roman", Times, serif;
+
+ }
+ .ct {position: relative; 
+     padding: 5px;
+     height: 100%;
+     border-radius: 15px;
+     background: #ffffff;
+     width: 90%;
+     margin-top: 10px;
+     font-family: "Times New Roman", Times, serif;
+
+ }
+
+ .bt {position: relative; 
+     padding: 5px;
+     height: 220px;
+     border-radius: 15px;
+     background: #ffffff;
+     border: 3px solid #000000;
+     width: 90%;
+     margin-top: 10px;
+     font-family: "Times New Roman", Times, serif;
+
+ }
+
+ .cent{
+ 	text-align: -webkit-center;
+ }
+.nad {position: relative; 
+     padding: 10px;
+     height: 40px;
+     background: #ffffff;
+     width: 90%;
+
+     border: 3px solid #000000;
+     border-radius: 15px;
+     margin-top: 10px;
+     font-family: "Times New Roman", Times, serif;
+
+ }
+ .nad2 {position: relative; 
+     height: 100%;
+     width: 90%;
+     font-family: "Times New Roman", Times, serif;
+
+ }
+ .log{
+    margin-top: -17px;
+ }
+
+ .step{
+    margin-top: 17px;
+ }
+
+ .proiz{
+    height: 20000px;
+    width: 95%;
+    max-width: 95%;
+    max-height: 95%;
+}
+
+
+.inter{
+    height: 540px;
+    width: 95%;
+    max-width: 95%;
+    max-height: 95%;
+}
